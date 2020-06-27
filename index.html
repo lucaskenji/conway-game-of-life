@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<title>Conway's Game of Life</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="gameoflife.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="titulo">
+				<h1>Conway's Game of Life</h1>
+				<h2 class="subtitulo">made by <a target="_blank" href="https://github.com/lucaskenji">Lucas Kenji</a> with javascript and jquery</h2>
+			</div>
+			<div id="main">
+					<div id="div-grid">
+						<table border id="grade">
+						</table>
+					</div>
+					<div id="div-btn">
+						<button class="btn btn-primary" id="botao">Next generation</button><br><br>
+						<button class="btn btn-primary" id="botao10">Skip 10 generations</button><br><br>
+						<button class="btn btn-danger" id="botaoclear">Clean</button><br><br>
+						Click into any square to create a cell or kill it.
+						<br><br>
+						Generation: <span id="gen_number">0</span><br>
+						Cells alive: <span id="cell_number">1</span>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>

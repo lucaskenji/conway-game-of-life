@@ -1,0 +1,30 @@
+.btn {
+	width: 100%;
+}
+
+.cell {
+	width: 24px;
+	height: 24px;
+}
+		
+.titulo {
+	text-align: center;
+}
+		
+.subtitulo {
+	font-size: 14px;
+	line-height: 1px;
+}
+			
+#main {
+	display: flex;
+	flex-direction: row;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 20px;
+}
+
+			
+#div-btn {
+	padding-left: 10px;
+}
